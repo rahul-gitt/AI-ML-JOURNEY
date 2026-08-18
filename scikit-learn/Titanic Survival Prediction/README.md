@@ -1,108 +1,95 @@
-**Titanic Survival Prediction**
+# Titanic Survival Prediction
 
 A Machine Learning classification project that predicts whether a passenger survived the Titanic disaster using Logistic Regression.
 
-Project Overview
+## Project Overview
 
-This project focuses on solving a binary classification problem using the Titanic dataset. The main goal is to understand and implement the complete Machine Learning workflow using Logistic Regression.
+This project focuses on building a binary classification model using the Titanic dataset and understanding the complete Machine Learning workflow.
 
-Objective
-Perform data cleaning and preprocessing
-Analyze the dataset using EDA
-Handle missing values
-Encode categorical features
-Split the data into training and testing sets
-Apply feature scaling
-Train a Logistic Regression model
-Make predictions
-Evaluate model performance
-Dataset Features
-Pclass — Passenger class
-Sex — Gender of the passenger
-Age — Age of the passenger
-SibSp — Number of siblings/spouses aboard
-Parch — Number of parents/children aboard
-Fare — Passenger fare
-Embarked — Port of embarkation
-Target Variable
-0 — Did Not Survive
-1 — Survived
-Machine Learning Workflow
+## Objective
 
-Data Loading → Data Cleaning → EDA → Feature Engineering → Encoding → Train-Test Split → Feature Scaling → Logistic Regression → Prediction → Model Evaluation
+- Data Cleaning
+- Exploratory Data Analysis
+- Feature Engineering
+- Categorical Encoding
+- Feature Scaling
+- Train-Test Split
+- Logistic Regression
+- Model Evaluation
 
-Exploratory Data Analysis
+## Dataset
 
-The project includes analysis of:
+The dataset contains passenger information such as:
 
-Missing values
-Duplicate values
-Survival distribution
-Survival by gender
-Survival by passenger class
-Age distribution
-Fare distribution
-Feature relationships
-Data Preprocessing
+- Passenger Class
+- Sex
+- Age
+- SibSp
+- Parch
+- Fare
+- Embarked
 
-The preprocessing steps include:
+### Target Variable
 
-Handling missing values
-Removing unnecessary columns
-Encoding categorical variables
-Selecting relevant features
-Train-Test Split
-Feature Scaling
-Machine Learning Model
-Logistic Regression
+`Survived`
 
-Logistic Regression is used because the target variable contains two classes: Survived and Not Survived.
+- `0` → Did Not Survive
+- `1` → Survived
 
-The model predicts the probability of survival and converts the probability into a class prediction.
+## Machine Learning Workflow
 
-Model Evaluation
+Data Loading → Data Cleaning → EDA → Feature Engineering → Encoding → Train-Test Split → Feature Scaling → Logistic Regression → Prediction → Evaluation
 
-The model is evaluated using:
+## Model
 
-Accuracy
-Precision
-Recall
-F1-Score
-Confusion Matrix
-ROC-AUC Score
-Technologies Used
-Python
-NumPy
-Pandas
-Matplotlib
-Seaborn
-Scikit-learn
-Jupyter Notebook
-Key Learnings
+### Logistic Regression
 
-Through this project, I strengthened my understanding of:
+Logistic Regression is used because the target variable is binary.
 
-Binary Classification
-Logistic Regression
-Exploratory Data Analysis
-Data Cleaning
-Missing Value Handling
-Categorical Encoding
-Feature Scaling
-Train-Test Split
-Model Training
-Model Prediction
-Classification Metrics
-Confusion Matrix
-ROC-AUC
-Future Improvements
-Try different classification algorithms
-Apply Cross-Validation
-Perform Hyperparameter Tuning
-Improve Feature Engineering
-Compare multiple Machine Learning models
-Author
+The model predicts the probability of survival and classifies passengers into two classes: Survived or Not Survived.
 
-Rahul Mondal
+## Evaluation Metrics
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+- ROC-AUC
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+## Key Learnings
+
+- Binary Classification
+- Logistic Regression
+- Data Preprocessing
+- Exploratory Data Analysis
+- Feature Engineering
+- One-Hot Encoding
+- Feature Scaling
+- Model Evaluation
+- Confusion Matrix
+- ROC-AUC
+
+## Future Improvements
+
+- Compare different classification algorithms
+- Apply Cross-Validation
+- Perform Hyperparameter Tuning
+- Improve Feature Engineering
+- Deploy the model
+
+## Author
+
+**Rahul Mondal**
 
 B.Tech CSE (AIML)
